@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #17012b;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding:  0 2%;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+
+.content > img {
+  width: 70%;
+}
+
+.content > h1 {
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+.actionCta {
+  margin-top: 3rem;
+  background-color: rgb(22, 178, 10);
+  border-radius: 12px;
+  padding: 18px 25px;
+  width: 90%;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.termos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: calc(100% - 70vh);
+}
+
+.termosLink{
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.termos a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: .5rem;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  max-width: 700px;
+  font-size: 0.5rem;
+}
+
+.termos a:hover {
+  text-decoration: underline;
+}
+
+.termos span {
+  color: white;
+  margin-left: .3rem;
+  margin-right: .3rem;
+  font-size: .5rem;
+}
+
+.actionCta:hover {
+  background-color: rgb(19, 151, 10);
+}
+
+@media (min-width: 1280px) {
+
+  .content {
+    margin-top: 4rem;
+  }
+
+  .content > h1 {
+    margin-top: 1rem;
+  }
+
+  .content > img {
+    width: 30%;
+  }
+
+  .actionCta {
+    margin-top: 2rem;
+    width: 35%;
+    padding: 12px 20px;
+  }
+}
